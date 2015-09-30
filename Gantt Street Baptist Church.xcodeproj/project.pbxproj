@@ -15,6 +15,7 @@
 		10B516CB1BBAC661009E177A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10B516C91BBAC661009E177A /* LaunchScreen.storyboard */; };
 		10B516D61BBAC661009E177A /* Gantt_Street_Baptist_ChurchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B516D51BBAC661009E177A /* Gantt_Street_Baptist_ChurchTests.swift */; };
 		10B516E11BBAC661009E177A /* Gantt_Street_Baptist_ChurchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B516E01BBAC661009E177A /* Gantt_Street_Baptist_ChurchUITests.swift */; };
+		10CDF3481BBB75D3003224F8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CDF3471BBB75D3003224F8 /* MainViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		10B516DC1BBAC661009E177A /* Gantt Street Baptist ChurchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gantt Street Baptist ChurchUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10B516E01BBAC661009E177A /* Gantt_Street_Baptist_ChurchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gantt_Street_Baptist_ChurchUITests.swift; sourceTree = "<group>"; };
 		10B516E21BBAC661009E177A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10CDF3471BBB75D3003224F8 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = ../MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		10B516BD1BBAC661009E177A /* Gantt Street Baptist Church */ = {
 			isa = PBXGroup;
 			children = (
+				10CDF3471BBB75D3003224F8 /* MainViewController.swift */,
 				10B516BE1BBAC661009E177A /* AppDelegate.swift */,
 				10B516C01BBAC661009E177A /* MasterViewController.swift */,
 				10B516C21BBAC661009E177A /* DetailViewController.swift */,
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				10B516C31BBAC661009E177A /* DetailViewController.swift in Sources */,
+				10CDF3481BBB75D3003224F8 /* MainViewController.swift in Sources */,
 				10B516C11BBAC661009E177A /* MasterViewController.swift in Sources */,
 				10B516BF1BBAC661009E177A /* AppDelegate.swift in Sources */,
 			);
@@ -487,6 +491,7 @@
 				10B516E71BBAC661009E177A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		10B516E81BBAC661009E177A /* Build configuration list for PBXNativeTarget "Gantt Street Baptist ChurchTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +500,7 @@
 				10B516EA1BBAC661009E177A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		10B516EB1BBAC661009E177A /* Build configuration list for PBXNativeTarget "Gantt Street Baptist ChurchUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +509,7 @@
 				10B516ED1BBAC661009E177A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
