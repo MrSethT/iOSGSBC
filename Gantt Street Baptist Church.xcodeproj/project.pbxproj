@@ -8,14 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		10B516BF1BBAC661009E177A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B516BE1BBAC661009E177A /* AppDelegate.swift */; };
-		10B516C11BBAC661009E177A /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B516C01BBAC661009E177A /* MasterViewController.swift */; };
-		10B516C31BBAC661009E177A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B516C21BBAC661009E177A /* DetailViewController.swift */; };
 		10B516C61BBAC661009E177A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10B516C41BBAC661009E177A /* Main.storyboard */; };
 		10B516C81BBAC661009E177A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10B516C71BBAC661009E177A /* Assets.xcassets */; };
 		10B516CB1BBAC661009E177A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10B516C91BBAC661009E177A /* LaunchScreen.storyboard */; };
 		10B516D61BBAC661009E177A /* Gantt_Street_Baptist_ChurchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B516D51BBAC661009E177A /* Gantt_Street_Baptist_ChurchTests.swift */; };
 		10B516E11BBAC661009E177A /* Gantt_Street_Baptist_ChurchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B516E01BBAC661009E177A /* Gantt_Street_Baptist_ChurchUITests.swift */; };
 		10CDF3481BBB75D3003224F8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CDF3471BBB75D3003224F8 /* MainViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		5E6768F11BC766940057CB23 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E6768F01BC766940057CB23 /* MediaPlayer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +37,6 @@
 /* Begin PBXFileReference section */
 		10B516BB1BBAC661009E177A /* Gantt Street Baptist Church.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gantt Street Baptist Church.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10B516BE1BBAC661009E177A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		10B516C01BBAC661009E177A /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		10B516C21BBAC661009E177A /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		10B516C51BBAC661009E177A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		10B516C71BBAC661009E177A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10B516CA1BBAC661009E177A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +48,7 @@
 		10B516E01BBAC661009E177A /* Gantt_Street_Baptist_ChurchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gantt_Street_Baptist_ChurchUITests.swift; sourceTree = "<group>"; };
 		10B516E21BBAC661009E177A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10CDF3471BBB75D3003224F8 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = ../MainViewController.swift; sourceTree = "<group>"; };
+		5E6768F01BC766940057CB23 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E6768F11BC766940057CB23 /* MediaPlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +80,7 @@
 		10B516B21BBAC661009E177A = {
 			isa = PBXGroup;
 			children = (
+				5E6768F01BC766940057CB23 /* MediaPlayer.framework */,
 				10B516BD1BBAC661009E177A /* Gantt Street Baptist Church */,
 				10B516D41BBAC661009E177A /* Gantt Street Baptist ChurchTests */,
 				10B516DF1BBAC661009E177A /* Gantt Street Baptist ChurchUITests */,
@@ -103,8 +103,6 @@
 			children = (
 				10CDF3471BBB75D3003224F8 /* MainViewController.swift */,
 				10B516BE1BBAC661009E177A /* AppDelegate.swift */,
-				10B516C01BBAC661009E177A /* MasterViewController.swift */,
-				10B516C21BBAC661009E177A /* DetailViewController.swift */,
 				10B516C41BBAC661009E177A /* Main.storyboard */,
 				10B516C71BBAC661009E177A /* Assets.xcassets */,
 				10B516C91BBAC661009E177A /* LaunchScreen.storyboard */,
@@ -261,9 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10B516C31BBAC661009E177A /* DetailViewController.swift in Sources */,
 				10CDF3481BBB75D3003224F8 /* MainViewController.swift in Sources */,
-				10B516C11BBAC661009E177A /* MasterViewController.swift in Sources */,
 				10B516BF1BBAC661009E177A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
