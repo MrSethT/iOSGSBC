@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lz6-1T-pKb">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lz6-1T-pKb">
                                 <rect key="frame" x="277" y="285" width="46" height="30"/>
                                 <animations/>
                                 <state key="normal" title="Button"/>
@@ -24,7 +24,7 @@
                                     <action selector="btnButton_Click:" destination="j6i-Cj-Hd4" eventType="touchUpInside" id="XTH-dJ-Rrf"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GlI-Q0-Iom">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GlI-Q0-Iom">
                                 <rect key="frame" x="251" y="323" width="99" height="30"/>
                                 <animations/>
                                 <state key="normal" title="Latest sermon"/>
@@ -35,6 +35,12 @@
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Lz6-1T-pKb" firstAttribute="centerX" secondItem="Vga-Q8-ATW" secondAttribute="centerX" id="MJe-TY-jej"/>
+                            <constraint firstItem="Lz6-1T-pKb" firstAttribute="centerY" secondItem="Vga-Q8-ATW" secondAttribute="centerY" id="YpH-4q-ju1"/>
+                            <constraint firstItem="GlI-Q0-Iom" firstAttribute="centerX" secondItem="Vga-Q8-ATW" secondAttribute="centerX" id="fdJ-8m-8vW"/>
+                            <constraint firstAttribute="centerY" secondItem="GlI-Q0-Iom" secondAttribute="centerY" constant="-38" id="ysL-MZ-NF5"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Gantt Street Baptist Church" id="y9G-9D-bWV"/>
                 </viewController>
